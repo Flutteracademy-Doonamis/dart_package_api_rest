@@ -3,5 +3,5 @@ import 'package:dart_package_api_rest/services/rescountries_services.dart';
 
 void main(List<String> args) {
   //ServicesReqresApi().getReqRespService(1);
-  ResCountriesServices().getCountries(pais: "pais");
+  ResCountriesServices().getRestCountry();
 }
